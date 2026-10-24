@@ -1,0 +1,63 @@
+
+/* Datatypes -> specify the type of data the variable is holding
+
+Primitive Datatype: in built datatypes, once created cannot be changed 
+so we say it's immutable 
+number
+string
+boolean
+undefined
+null
+bigint
+*/
+
+//variable declaration --> var companyName
+//value Assignment to the variable --> companyName = 'Testleaf'
+//this is called declaration + initialization in a single statement
+
+//number
+var phoneNumber = 9876545678
+var num = 0.5
+console.log(phoneNumber);
+console.log(typeof phoneNumber);
+
+
+//string - represented using ''," ", ``(the key above your tab key - backticks)
+
+//var empName = 'yuvarani'
+var empName = 'Hari'
+console.log(empName);
+console.log(typeof empName);
+
+
+//boolean ->either it can be true or false
+
+var hasPlaywright = true
+console.log(hasPlaywright);
+console.log(typeof hasPlaywright);
+
+
+//undefined - means a variable has no value assigned may be value will be assigned later at runtime
+
+var accountNumber
+console.log(accountNumber);
+console.log(typeof accountNumber);
+
+
+
+//null -> null means the value is intentonally set to 'no value' or empty
+
+var landline = null
+//landline = '56789876'
+console.log(landline);
+console.log(typeof landline);
+
+
+//bigint -bigint is used to store very large integers beyond the JS number linit (2^53-1)
+
+var transactionId = 456709876456709876567n
+console.log(Number(transactionId));
+
+console.log(transactionId);
+console.log(typeof transactionId);
+
